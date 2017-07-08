@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.sss"],"names":[],"mappings":";AACA;EACE,uBAAsB;EACtB,aAAa;CAFV;;AAIL;EACE,aAAY;EACZ,sBAAsB;CAFnB","file":"main.css","sourcesContent":["\n.item\n  border: 1px solid #999\n  padding: 10px\n\n.list\n  width: 300px\n  border: 1px solid #999\n"]}

@@ -1,0 +1,12 @@
+extends layout
+
+
+block content  
+  h2 Write your Quotes 
+    a(href="/list") list quote
+    form(method="POST")
+      input(name="author" type="text" placeholder="author")
+      br
+      textarea(name="qoute" placeholder="qoute")
+      br
+      input(type="submit" value="send")

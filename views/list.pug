@@ -1,0 +1,11 @@
+extends layout
+
+
+block content  
+  h2 Write your Quotes 
+    a(href="/") add quote
+  div.list
+    each quote in qoutes
+      blockquote
+        p quote.qoute
+        p.item --- #{quote.author}
